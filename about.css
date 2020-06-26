@@ -77,10 +77,19 @@ nav{
   }
   
   .card {
+	  display: flex;
+	  flex-direction: column;
+	  justify-items: center;
+	  width: 35%;
+	  margin: 4%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 8px;
   }
-  
+  .card img{
+	  border-radius: 100%;
+	  
+  }
+ 
   .about-section {
 	padding: 50px;
 	text-align: center;
@@ -121,6 +130,9 @@ nav{
   @media screen and (max-width: 550px) {
 	.column {
 	  width: 100%;
-	  display: block;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: column;
 	}
   }
