@@ -40,19 +40,25 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-*/
+} */
+
 
 
 /* Add CSS styling here */
-
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
 body{
+	
 	background-image: url('https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80ttps://images.unsplash.com/photo-1563861019306-9cccb83bdf0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80');		
 	background-position: center;
 	
 }
 h1{
-	font-size: 150%;
+	font-size: 5rem;
 }
 .title-container{
     display:flex;
@@ -74,19 +80,26 @@ h1{
 	background-size:90%;
 	background-color: transparent;
 }
-nav{
-	display: flex;
-	justify-content: center;
-	justify-content: space-evenly;
+header nav{
+	width: 100%;
 	background-color: tomato;
-	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+
 }
-a{
-	font-size: large;
+nav {
+	font-size: 2rem;
+	text-decoration: none;
+	padding: 2%;
+
+}
+nav a{
+	font-size: 2rem;
 	text-decoration: none;
 	border: 5%;
 	color: steelblue;
 	margin-top: 3%;
+	text-align: center;
 	
 }
 a:hover{
@@ -99,26 +112,6 @@ button{
 	width:60px;
 }
   
-  /* Full-width inputs */
-  input[type=text], input[type=password] {
-	width: 100%;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-	background-color: #4CAF50;
-	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-  }
   
   /* Add a hover effect for buttons */
   button:hover {
