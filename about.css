@@ -101,6 +101,7 @@ a{
   }
  
   .about-section {
+	  opacity: 80%;
 	padding: 50px;
 	text-align: center;
 	background-color: #474e5d;
@@ -144,5 +145,12 @@ a{
 	  align-items: center;
 	  justify-content: center;
 	  flex-direction: column;
+	}
+	.card p{
+		display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: column;
+
 	}
   }
