@@ -59,6 +59,11 @@ nav{
 	justify-content: space-evenly;
 	background-color: tomato;
 	align-items: center;
+	
+}
+a{
+	color: cadetblue;
+	text-decoration: none;
 }
   
   html {
@@ -85,7 +90,7 @@ nav{
 	  display: flex;
 	  flex-direction: column;
 	  justify-items: center;
-	  width: 35%;
+	  width: 39%;
 	  margin: 4%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 8px;
@@ -131,8 +136,8 @@ nav{
   .button:hover {
 	background-color: #555;
   }
-  
-  @media screen and (max-width: 500px) {
+
+  @media (max-width: 500px) {
 	.column {
 	  width: 100%;
 	  display: flex;
