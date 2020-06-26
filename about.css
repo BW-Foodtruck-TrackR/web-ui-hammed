@@ -68,7 +68,12 @@ nav{
   *, *:before, *:after {
 	box-sizing: inherit;
   }
-  
+  p{
+	  color: antiquewhite;
+  }
+  h2{
+	  color: azure;
+  }
   .column {
 	float: left;
 	width: 33.3%;
